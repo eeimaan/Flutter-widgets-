@@ -1,18 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:myfristapp/image_widget.dart';
+import 'package:myfristapp/row_colum.dart';
+import 'package:myfristapp/row_practice.dart';
+
+import 'ElevatedButton.dart';
 void main() {
-  runApp(MyApp()); //MaterialApp
+  runApp( MyApp());
+   //MaterialApp
 }
 // ignore: non_constant_identifier_names
-MaterialApp MyApp() {
+/*MaterialApp MyApp() {
   return MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
         title: const Text(" How to Flutter"),
-        backgroundColor: Color.fromARGB(255, 136, 145, 226),
+        backgroundColor: const Color.fromARGB(255, 136, 145, 226),
       ), //AppBar
       body:  const Center(), 
   ));
-}
+}*/
 /*import 'package:flutter/material.dart';
 
 void main() => runApp(const AppBarApp());

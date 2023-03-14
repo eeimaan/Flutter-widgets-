@@ -7,13 +7,19 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:myfristapp/ElevatedButton.dart';
+import 'package:myfristapp/image_widget.dart';
 
 import 'package:myfristapp/main.dart';
+import 'package:myfristapp/row_colum.dart';
+import 'package:myfristapp/tab_bar.dart';
+
+import 'package:myfristapp/row_practice.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MaterialApp());
+    await tester.pumpWidget( MyApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
