@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:myfristapp/All_widgets.dart';
+import 'package:myfristapp/card_widget.dart';
+import 'package:myfristapp/container.dart';
 import 'package:myfristapp/image_widget.dart';
 import 'package:myfristapp/row_colum.dart';
 import 'package:myfristapp/row_practice.dart';

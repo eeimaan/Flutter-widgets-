@@ -1,6 +1,6 @@
 /*import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+
 
 class MyApp extends StatelessWidget {
   @override
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
                     children: <Widget>[
                       const Text(
                         'Flutter is Awesome!',
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 24.0,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
